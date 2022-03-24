@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  Test</title>
+<title>TestNG:  Smoke</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,15 +53,15 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Test</h2><table border='1' align="center">
+<h2 align='center'>Smoke</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Mar 23 17:25:42 IST 2022</td>
+<td>Started on:</td><td>Thu Mar 24 16:54:06 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>266 seconds (266354 ms)</td>
+<tr><td>Total time:</td><td>109 seconds (109408 ms)</td>
 </tr><tr>
-<td>Included groups:</td><td></td>
+<td>Included groups:</td><td>Smoke </td>
 </tr><tr>
 <td>Excluded groups:</td><td></td>
 </tr>
@@ -79,8 +79,8 @@ function toggleAllBoxes() {
 <td><div><pre>java.lang.AssertionError: expected [My Store1] but found [My Store]
 	at com.mystore.testcases.IndexPageTest.verifyTitle(IndexPageTest.java:41)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1593749783", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1593749783'><pre>java.lang.AssertionError: expected [My Store1] but found [My Store]
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace180084736", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace180084736'><pre>java.lang.AssertionError: expected [My Store1] but found [My Store]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
@@ -118,7 +118,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.mystore.testcases.IndexPageTest@1b11171f</td></tr>
+<td>com.mystore.testcases.IndexPageTest@48aca48b</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -128,50 +128,30 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.mystore.testcases.AccountCreationPageTest.verifyCreateAccountPageTest()'><b>verifyCreateAccountPageTest</b><br>Test class: com.mystore.testcases.AccountCreationPageTest</td>
+<td title='com.mystore.testcases.IndexPageTest.verifyLogo()'><b>verifyLogo</b><br>Test class: com.mystore.testcases.IndexPageTest</td>
 <td></td>
-<td>8</td>
-<td>com.mystore.testcases.AccountCreationPageTest@27f981c6</td></tr>
-<tr>
-<td title='com.mystore.testcases.SearchresultPageTest.productAvailabilityTest()'><b>productAvailabilityTest</b><br>Test class: com.mystore.testcases.SearchresultPageTest</td>
-<td></td>
-<td>6</td>
-<td>com.mystore.testcases.SearchresultPageTest@4c1909a3</td></tr>
-<tr>
-<td title='com.mystore.testcases.EndToEndTest.endToEndTest()'><b>endToEndTest</b><br>Test class: com.mystore.testcases.EndToEndTest</td>
-<td></td>
-<td>62</td>
-<td>com.mystore.testcases.EndToEndTest@4b8ee4de</td></tr>
-<tr>
-<td title='com.mystore.testcases.OrderPageTest.verifyTotalPrice()'><b>verifyTotalPrice</b><br>Test class: com.mystore.testcases.OrderPageTest</td>
-<td></td>
-<td>19</td>
-<td>com.mystore.testcases.OrderPageTest@55634720</td></tr>
-<tr>
-<td title='com.mystore.testcases.AddToCartPageTest.addToCartTest()'><b>addToCartTest</b><br>Test class: com.mystore.testcases.AddToCartPageTest</td>
-<td></td>
-<td>17</td>
-<td>com.mystore.testcases.AddToCartPageTest@4b0d79fc</td></tr>
+<td>0</td>
+<td>com.mystore.testcases.IndexPageTest@48aca48b</td></tr>
 <tr>
 <td title='com.mystore.testcases.HomepageTest.wishListTest()'><b>wishListTest</b><br>Test class: com.mystore.testcases.HomepageTest</td>
 <td></td>
-<td>8</td>
-<td>com.mystore.testcases.HomepageTest@1151e434</td></tr>
+<td>10</td>
+<td>com.mystore.testcases.HomepageTest@13fd2ccd</td></tr>
 <tr>
-<td title='com.mystore.testcases.HomepageTest.orderHisstoryandDetailsTest()'><b>orderHisstoryandDetailsTest</b><br>Test class: com.mystore.testcases.HomepageTest</td>
+<td title='com.mystore.testcases.SearchresultPageTest.productAvailabilityTest()'><b>productAvailabilityTest</b><br>Test class: com.mystore.testcases.SearchresultPageTest</td>
 <td></td>
-<td>7</td>
-<td>com.mystore.testcases.HomepageTest@1151e434</td></tr>
+<td>8</td>
+<td>com.mystore.testcases.SearchresultPageTest@54e1c68b</td></tr>
 <tr>
 <td title='com.mystore.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mystore.testcases.LoginPageTest<br>Parameters: admin@xyz.com, admin@123</td>
 <td></td>
 <td>11</td>
-<td>com.mystore.testcases.LoginPageTest@659499f1</td></tr>
+<td>com.mystore.testcases.LoginPageTest@4659191b</td></tr>
 <tr>
-<td title='com.mystore.testcases.IndexPageTest.verifyLogo()'><b>verifyLogo</b><br>Test class: com.mystore.testcases.IndexPageTest</td>
+<td title='com.mystore.testcases.HomepageTest.orderHisstoryandDetailsTest()'><b>orderHisstoryandDetailsTest</b><br>Test class: com.mystore.testcases.HomepageTest</td>
 <td></td>
-<td>0</td>
-<td>com.mystore.testcases.IndexPageTest@1b11171f</td></tr>
+<td>9</td>
+<td>com.mystore.testcases.HomepageTest@13fd2ccd</td></tr>
 </table><p>
 </body>
 </html>
