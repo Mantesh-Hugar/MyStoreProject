@@ -7,6 +7,15 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="com.mystore.testcases.AccountCreationPageTest">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="afterSuite"/>
+          <include name="verifyCreateAccountPageTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mystore.testcases.AccountCreationPageTest -->
       <class name="com.mystore.testcases.IndexPageTest">
         <methods>
           <include name="tearDown"/>

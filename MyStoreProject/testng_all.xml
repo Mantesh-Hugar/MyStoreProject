@@ -15,6 +15,7 @@
       <class name="com.mystore.testcases.OrderPageTest"/>
       <class name="com.mystore.testcases.AddToCartPageTest"/>
       <class name="com.mystore.testcases.SearchresultPageTest"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
