@@ -23,4 +23,5 @@
       <class name="com.mystore.testcases.IndexPageTest"/>
     </classes>
   </test> <!-- Test -->
+  
 </suite> <!-- Suite -->
