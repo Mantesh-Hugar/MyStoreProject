@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Smoke(failed)">
+  <test thread-count="5" name="Regression(failed)">
     <parameter name="browser" value="chrome"/>
     <groups>
       <run>
-        <include name="Smoke"/>
+        <include name="Regression"/>
       </run>
     </groups>
     <classes>
-      <class name="com.mystore.testcases.IndexPageTest">
+      <class name="com.mystore.testcases.EndToEndTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
           <include name="loadConfig"/>
-          <include name="verifyTitle"/>
+          <include name="tearDown"/>
+          <include name="endToEndTest"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.mystore.testcases.IndexPageTest -->
+      </class> <!-- com.mystore.testcases.EndToEndTest -->
     </classes>
-  </test> <!-- Smoke(failed) -->
+  </test> <!-- Regression(failed) -->
 </suite> <!-- Failed suite [Suite] -->

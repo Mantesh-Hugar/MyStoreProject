@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="11" total="17" passed="5" failed="1" skipped="0">
+<testng-results ignored="14" total="17" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-24T16:54:06 IST" name="Suite" finished-at="2022-03-24T16:55:55 IST" duration-ms="109408">
+  <suite started-at="2022-03-24T18:08:13 IST" name="Suite" finished-at="2022-03-24T18:10:03 IST" duration-ms="109710">
     <groups>
       <group name="Sanity">
-        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@4659191b]" name="loginTest" class="com.mystore.testcases.LoginPageTest"/>
+        <method signature="AddToCartPageTest.addToCartTest()[pri:0, instance:com.mystore.testcases.AddToCartPageTest@72e5a8e]" name="addToCartTest" class="com.mystore.testcases.AddToCartPageTest"/>
       </group> <!-- Sanity -->
-      <group name="Smoke">
-        <method signature="HomepageTest.orderHisstoryandDetailsTest()[pri:0, instance:com.mystore.testcases.HomepageTest@13fd2ccd]" name="orderHisstoryandDetailsTest" class="com.mystore.testcases.HomepageTest"/>
-        <method signature="HomepageTest.wishListTest()[pri:0, instance:com.mystore.testcases.HomepageTest@13fd2ccd]" name="wishListTest" class="com.mystore.testcases.HomepageTest"/>
-        <method signature="IndexPageTest.verifyLogo()[pri:0, instance:com.mystore.testcases.IndexPageTest@48aca48b]" name="verifyLogo" class="com.mystore.testcases.IndexPageTest"/>
-        <method signature="IndexPageTest.verifyTitle()[pri:0, instance:com.mystore.testcases.IndexPageTest@48aca48b]" name="verifyTitle" class="com.mystore.testcases.IndexPageTest"/>
-        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@4659191b]" name="loginTest" class="com.mystore.testcases.LoginPageTest"/>
-        <method signature="SearchresultPageTest.productAvailabilityTest()[pri:0, instance:com.mystore.testcases.SearchresultPageTest@54e1c68b]" name="productAvailabilityTest" class="com.mystore.testcases.SearchresultPageTest"/>
-      </group> <!-- Smoke -->
+      <group name="Regression">
+        <method signature="AddToCartPageTest.addToCartTest()[pri:0, instance:com.mystore.testcases.AddToCartPageTest@72e5a8e]" name="addToCartTest" class="com.mystore.testcases.AddToCartPageTest"/>
+        <method signature="EndToEndTest.endToEndTest()[pri:0, instance:com.mystore.testcases.EndToEndTest@4efac082]" name="endToEndTest" class="com.mystore.testcases.EndToEndTest"/>
+        <method signature="OrderPageTest.verifyTotalPrice()[pri:0, instance:com.mystore.testcases.OrderPageTest@7d4f9aae]" name="verifyTotalPrice" class="com.mystore.testcases.OrderPageTest"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2022-03-24T16:54:06 IST" name="Smoke" finished-at="2022-03-24T16:55:55 IST" duration-ms="109408">
-      <class name="com.mystore.testcases.SearchresultPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.SearchresultPageTest@54e1c68b]" started-at="2022-03-24T16:55:37 IST" name="setup" finished-at="2022-03-24T16:55:47 IST" duration-ms="9875" status="PASS">
+    <test started-at="2022-03-24T18:08:13 IST" name="Regression" finished-at="2022-03-24T18:10:03 IST" duration-ms="109710">
+      <class name="com.mystore.testcases.EndToEndTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.EndToEndTest@4efac082]" started-at="2022-03-24T18:08:13 IST" name="setup" finished-at="2022-03-24T18:08:26 IST" duration-ms="12482" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,100 +26,49 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="productAvailabilityTest()[pri:0, instance:com.mystore.testcases.SearchresultPageTest@54e1c68b]" started-at="2022-03-24T16:55:47 IST" name="productAvailabilityTest" finished-at="2022-03-24T16:55:55 IST" duration-ms="8713" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productAvailabilityTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.SearchresultPageTest@54e1c68b]" started-at="2022-03-24T16:55:55 IST" name="tearDown" finished-at="2022-03-24T16:55:55 IST" duration-ms="208" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.mystore.testcases.SearchresultPageTest -->
-      <class name="com.mystore.testcases.HomepageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.HomepageTest@13fd2ccd]" started-at="2022-03-24T16:54:54 IST" name="setup" finished-at="2022-03-24T16:55:06 IST" duration-ms="12378" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="orderHisstoryandDetailsTest()[pri:0, instance:com.mystore.testcases.HomepageTest@13fd2ccd]" started-at="2022-03-24T16:55:06 IST" name="orderHisstoryandDetailsTest" finished-at="2022-03-24T16:55:15 IST" duration-ms="9429" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- orderHisstoryandDetailsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.HomepageTest@13fd2ccd]" started-at="2022-03-24T16:55:15 IST" name="tearDown" finished-at="2022-03-24T16:55:16 IST" duration-ms="215" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.HomepageTest@13fd2ccd]" started-at="2022-03-24T16:55:16 IST" name="setup" finished-at="2022-03-24T16:55:26 IST" duration-ms="10180" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="wishListTest()[pri:0, instance:com.mystore.testcases.HomepageTest@13fd2ccd]" started-at="2022-03-24T16:55:26 IST" name="wishListTest" finished-at="2022-03-24T16:55:36 IST" duration-ms="10619" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- wishListTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.HomepageTest@13fd2ccd]" started-at="2022-03-24T16:55:36 IST" name="tearDown" finished-at="2022-03-24T16:55:37 IST" duration-ms="201" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.mystore.testcases.HomepageTest -->
-      <class name="com.mystore.testcases.IndexPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.IndexPageTest@48aca48b]" started-at="2022-03-24T16:54:31 IST" name="setup" finished-at="2022-03-24T16:54:42 IST" duration-ms="11000" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLogo()[pri:0, instance:com.mystore.testcases.IndexPageTest@48aca48b]" started-at="2022-03-24T16:54:42 IST" name="verifyLogo" finished-at="2022-03-24T16:54:42 IST" duration-ms="88" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.IndexPageTest@48aca48b]" started-at="2022-03-24T16:54:42 IST" name="tearDown" finished-at="2022-03-24T16:54:42 IST" duration-ms="207" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.IndexPageTest@48aca48b]" started-at="2022-03-24T16:54:42 IST" name="setup" finished-at="2022-03-24T16:54:53 IST" duration-ms="10962" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyTitle()[pri:0, instance:com.mystore.testcases.IndexPageTest@48aca48b]" started-at="2022-03-24T16:54:53 IST" name="verifyTitle" finished-at="2022-03-24T16:54:53 IST" duration-ms="13" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="endToEndTest()[pri:0, instance:com.mystore.testcases.EndToEndTest@4efac082]" started-at="2022-03-24T18:08:26 IST" name="endToEndTest" finished-at="2022-03-24T18:08:58 IST" duration-ms="32462" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[expected [My Store1] but found [My Store]]]>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=99.0.4844.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LMCTAG039', ip: '192.168.50.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\MANTES~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:19888}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fd0a5eec948da2c70106ccf7476fb53a
+*** Element info: {Using=xpath, value=//span[text()='Add to cart']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [My Store1] but found [My Store]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at com.mystore.testcases.IndexPageTest.verifyTitle(IndexPageTest.java:41)
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=99.0.4844.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LMCTAG039', ip: '192.168.50.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\MANTES~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:19888}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fd0a5eec948da2c70106ccf7476fb53a
+*** Element info: {Using=xpath, value=//span[text()='Add to cart']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at com.mystore.pageobjects.AddToCartPage.clickOnAddToCart(AddToCartPage.java:61)
+at com.mystore.testcases.EndToEndTest.endToEndTest(EndToEndTest.java:63)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -153,21 +99,17 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.IndexPageTest@48aca48b]" started-at="2022-03-24T16:54:53 IST" name="tearDown" finished-at="2022-03-24T16:54:54 IST" duration-ms="202" status="PASS">
+        </test-method> <!-- endToEndTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.EndToEndTest@4efac082]" started-at="2022-03-24T18:08:58 IST" name="tearDown" finished-at="2022-03-24T18:08:59 IST" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.mystore.testcases.IndexPageTest -->
-      <class name="com.mystore.testcases.LoginPageTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.LoginPageTest@4659191b]" started-at="2022-03-24T16:54:06 IST" name="loadConfig" finished-at="2022-03-24T16:54:06 IST" duration-ms="300" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@4659191b]" started-at="2022-03-24T16:54:07 IST" name="setup" finished-at="2022-03-24T16:54:20 IST" duration-ms="12585" status="PASS">
+      </class> <!-- com.mystore.testcases.EndToEndTest -->
+      <class name="com.mystore.testcases.AddToCartPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.AddToCartPageTest@72e5a8e]" started-at="2022-03-24T18:09:32 IST" name="setup" finished-at="2022-03-24T18:09:46 IST" duration-ms="14143" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -178,27 +120,42 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@4659191b]" started-at="2022-03-24T16:54:20 IST" name="loginTest" data-provider="Credentials" finished-at="2022-03-24T16:54:31 IST" duration-ms="11351" status="PASS">
+        <test-method signature="addToCartTest()[pri:0, instance:com.mystore.testcases.AddToCartPageTest@72e5a8e]" started-at="2022-03-24T18:09:46 IST" name="addToCartTest" finished-at="2022-03-24T18:10:03 IST" duration-ms="16811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.AddToCartPageTest@72e5a8e]" started-at="2022-03-24T18:10:03 IST" name="tearDown" finished-at="2022-03-24T18:10:03 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testcases.AddToCartPageTest -->
+      <class name="com.mystore.testcases.OrderPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.OrderPageTest@7d4f9aae]" started-at="2022-03-24T18:08:59 IST" name="setup" finished-at="2022-03-24T18:09:11 IST" duration-ms="12056" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[admin@xyz.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin@123]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.LoginPageTest@4659191b]" started-at="2022-03-24T16:54:31 IST" name="tearDown" finished-at="2022-03-24T16:54:31 IST" duration-ms="232" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTotalPrice()[pri:0, instance:com.mystore.testcases.OrderPageTest@7d4f9aae]" started-at="2022-03-24T18:09:11 IST" name="verifyTotalPrice" finished-at="2022-03-24T18:09:32 IST" duration-ms="20971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTotalPrice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.OrderPageTest@7d4f9aae]" started-at="2022-03-24T18:09:32 IST" name="tearDown" finished-at="2022-03-24T18:09:32 IST" duration-ms="299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testcases.OrderPageTest -->
+      <class name="com.mystore.testcases.LoginPageTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.LoginPageTest@4659191b]" started-at="2022-03-24T18:08:13 IST" name="loadConfig" finished-at="2022-03-24T18:08:13 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
       </class> <!-- com.mystore.testcases.LoginPageTest -->
-    </test> <!-- Smoke -->
+    </test> <!-- Regression -->
   </suite> <!-- Suite -->
 </testng-results>
